@@ -8,6 +8,14 @@ Outros – R$19.849,53
 Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado 
 teve dentro do valor total mensal da distribuidora.
 
+o print:
+SP: 37.53%
+RJ: 20.29%
+MG: 16.17%
+ES: 15.03%
+Outros: 10.98%
+
+
 */
 
 
@@ -30,3 +38,5 @@ void main() {
     print('$estado: ${percentual.toStringAsFixed(2)}%');
   });
 }
+
+
